@@ -1,0 +1,35 @@
+/* Base Styles ---------------*/
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #404040;
+  text-transform: uppercase;
+  color: white;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 5px black;
+}
+
+.banner h2 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.banner p {
+  font-weight: lighter;
+  color: darkgrey;
+  text-align: center;
+}
