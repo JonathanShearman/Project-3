@@ -74,6 +74,11 @@ legend {
   font-weight: lighter;
 }
 
-.textarea {
+textarea {
   width: 90%;
+  padding: 2em;
+}
+
+button {
+  background-color: aqua;
 }
