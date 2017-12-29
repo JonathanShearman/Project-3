@@ -33,3 +33,20 @@ body {
   color: darkgrey;
   text-align: center;
 }
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+}
+
+.contact input {
+  background-color: lightgrey;
+  margin: 10px 5px;
+  padding: 10px 60px;
+  flex: 1 200px;
+  border-radius: 3px;
+  border-style: none;
+
+}
