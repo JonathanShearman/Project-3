@@ -4,6 +4,12 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+legend {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 10px;
+}
+
 .main-header {
   display: flex;
   flex-wrap: wrap;
@@ -38,7 +44,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-
 }
 
 .contact input {
