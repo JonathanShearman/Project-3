@@ -76,9 +76,20 @@ legend {
 
 textarea {
   width: 90%;
-  padding: 2em;
+  padding: 10px 0;
 }
 
 button {
-  background-color: aqua;
+  background-color: #4cbaff;
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.container p:last-child {
+  text-align: center;
+  font-style: italic;
 }
