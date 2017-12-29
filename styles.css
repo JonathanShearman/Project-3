@@ -44,6 +44,8 @@ legend {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  border-style: none;
+  border-bottom: solid 5px black;
 }
 
 .contact input {
@@ -53,5 +55,25 @@ legend {
   flex: 1 200px;
   border-radius: 3px;
   border-style: none;
+}
 
+.contact label {
+  color: grey;
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.newsletter {
+  border-style: none;
+}
+
+.newsletter p, label {
+  color: darkgrey;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.textarea {
+  width: 90%;
 }

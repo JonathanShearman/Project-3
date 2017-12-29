@@ -83,25 +83,32 @@
       <option value="West Virginia">West Virginia</option>
       <option value="Wisconsin">Wisconsin</option>
       <option value="Wyoming">Wyoming</option>
+
+      <div>
       <label for="zip">Zip Code:</label>
     <input type="text" id="zip" name="user_zip">
+  </div>
 </fieldset>
 <br>
-<h2>Newsletter</h2>
-<fieldset>
-  <legend><span></span></legend>
-  <p>Select the newsletters you would like to receive</p>
-  <input type="checkbox" id="HTML_News" name="user_html"><label>HTML News</label><br>
-  <input type="checkbox" id="CSS_News" name="user_css"><label>CSS News</label><br>
-  <input type="checkbox" id="Javascript_News" name="user_javascript"><label>Javascript News</label><br>
-  <p>Newsletter format</p>
-  <input type="checkbox" id="HTML" name="user_html_news"><label>HTML</label><br>
-  <input type="checkbox" id="Plain_text" name="user_plaintext"><label>Plain Text</label><br>
-</fieldset>
 
+<fieldset class="newsletter">
+  <legend>Newsletter</legend>
+  <p>Select the newsletters you would like to receive</p>
+  <input type="checkbox" id="HTML_News" name="user_html">
+  <label>HTML News</label><br>
+  <input type="checkbox" id="CSS_News" name="user_css">
+  <label>CSS News</label><br>
+  <input type="checkbox" id="Javascript_News" name="user_javascript">
+  <label>Javascript News</label><br>
+  <p>Newsletter format</p>
+  <input type="checkbox" id="HTML" name="user_html_news">
+  <label>HTML</label><br>
+  <input type="checkbox" id="Plain_text" name="user_plaintext">
+  <label>Plain Text</label><br>
   <p>Other topics you'd like to hear about</p>
   <textarea id="bio" name="user_bio"></textarea>
   <button type"submit">Sign Up</button>
+</fieldset>
   <p>Copyright The Code Review</p>
 
 
