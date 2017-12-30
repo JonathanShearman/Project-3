@@ -111,12 +111,6 @@ button {
   text-transform: uppercase;
 }
 
-.container p:last-child {
-  text-align: center;
-  font-style: italic;
-}
-
-
 #state {
   padding: 12px;
   border-radius: 3px;
@@ -136,4 +130,11 @@ button {
 #zip {
   width: 41%;
   padding: 20px;
+}
+
+.copyright p {
+  text-align: center;
+  font-style: italic;
+  color: darkgrey;
+  font-size: 8px;
 }
