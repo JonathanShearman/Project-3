@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Merriweather', serif;
+  margin: 0;
 }
 
 legend {
@@ -42,8 +43,9 @@ legend {
 
 .contact {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  margin: auto 0;
   border-style: none;
   border-bottom: solid 5px black;
 }
@@ -51,17 +53,20 @@ legend {
 .contact input {
   background-color: lightgrey;
   margin: 10px 5px;
-  padding: 10px 60px;
+  width: 82%;
+  padding: 20px;
   flex: 1 200px;
   border-radius: 3px;
   border-style: none;
 }
+
 
 .contact label {
   color: grey;
   font-size: 1em;
   font-weight: lighter;
   margin: 10px;
+  border-color: black;
 }
 
 .newsletter {
@@ -69,14 +74,18 @@ legend {
 }
 
 .newsletter p, label {
-  color: darkgrey;
+  color: grey;
   font-size: 1em;
   font-weight: lighter;
 }
 
 textarea {
   width: 90%;
-  padding: 10px 0;
+  padding: 15px 0;
+  background-color: lightgrey;
+  border-style: none;
+  border-radius: 3px;
+  margin: 0 auto;
 }
 
 button {
@@ -86,10 +95,36 @@ button {
   padding-bottom: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
 }
 
 .container p:last-child {
   text-align: center;
   font-style: italic;
+}
+
+
+#state {
+  padding: 12px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: lightgrey;
+  margin: 5px;
+  width: 61%;
+  height: 3.25rem;
+}
+
+#state:focus {
+  background-color: lightgrey;
+  outline: 0;
+  border: 1px solid black;
+}
+
+#zip {
+  margin-top: 10px;
+  width: 30px;
+  padding-top: 10px;
 }
