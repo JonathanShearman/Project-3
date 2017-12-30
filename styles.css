@@ -11,12 +11,14 @@ legend {
   margin: 10px;
 }
 
+
+
 .main-header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #404040;
+  background-color: #25255F;
   text-transform: uppercase;
   color: white;
 }
@@ -58,6 +60,7 @@ legend {
   flex: 1 200px;
   border-radius: 3px;
   border-style: none;
+  font-size: 1em;
 }
 
 
@@ -89,13 +92,14 @@ textarea {
 }
 
 button {
-  background-color: #4cbaff;
+  background: linear-gradient(to top right, #ffffff -35%, #7a7adb 79%);
+  border-radius: 3px;
   width: 90%;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: bolder;
   font-size: 1.2em;
   color: white;
   text-transform: uppercase;
@@ -113,8 +117,9 @@ button {
   border-style: none;
   background-color: lightgrey;
   margin: 5px;
-  width: 61%;
+  width: 90%;
   height: 3.25rem;
+  font-size: 1em;
 }
 
 #state:focus {
@@ -125,6 +130,6 @@ button {
 
 #zip {
   margin-top: 10px;
-  width: 30px;
-  padding-top: 10px;
+  width: 25%;
+  padding: 20px;
 }
