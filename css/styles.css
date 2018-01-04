@@ -117,6 +117,10 @@ h1 {
   margin: 10px;
 }
 
+.newsletter input:focus {
+  height: auto;
+}
+
 textarea {
   width: 90%;
   padding: 15px 0;
