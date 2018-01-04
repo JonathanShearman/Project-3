@@ -5,7 +5,7 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <title>Online Registration Form</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
   </div>
   <div class="form-row">
     <label for="mobile">Phone Number:</label>
-    <input type="tel" id="mobile" name="user_mobile" placeholder="Required" required>
+    <input type="tel" id="mobile" name="user_mobile" placeholder="+ International code" required>
   </div>
   <div class="form-row">
     <label for="address">Street Address:</label>
@@ -45,7 +45,7 @@
   </div>
   <div class="form-row">
     <label for="state">State:</label>
-    <select id="state" name"user_state">
+    <select id="state" name="user_state">
       <option value="choose-state">Choose State</option>
       <option value="Alabama">Alabama</option>
       <option value="Alaska">Alaska</option>
@@ -99,7 +99,7 @@
   </div>
   <div class="form-row">
       <label for="zip">Zip Code:</label>
-    <input type="text" id="zip" name="user_zip" placeholder="Required" required>
+    <input type="text" id="zip" name="user_zip" placeholder="eg: TN4 9LL" required>
   </div>
   </div>
 </fieldset>
@@ -116,18 +116,18 @@
   <input type="checkbox" id="Javascript_News" name="user_javascript">
   <label>Javascript News</label><br>
   <p>Newsletter format</p>
-  <input type="checkbox" id="HTML" name="user_html_news">
+  <input type="radio" id="HTML" class="user_radio" value="html news" name="radio">
   <label>HTML</label><br>
-  <input type="checkbox" id="Plain_text" name="user_plaintext">
+  <input type="radio" id="Plain_text" class="user_radio" value="plain_text news" name="radio">
   <label>Plain Text</label><br>
   <p>Other topics you'd like to hear about</p>
   <textarea id="bio" name="user_bio"></textarea>
-  <button type"submit">Sign Up</button>
+  <button type="submit">Sign Up</button>
 </fieldset>
 </div>
   <div class="copyright">
   <p>Copyright The Code Review</p>
-  <div>
+  </div>
 </form>
 </div>
 </body>
