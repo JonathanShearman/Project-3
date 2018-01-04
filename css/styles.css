@@ -108,6 +108,7 @@ hr {
 
 .newsletter {
   border-style: none;
+  background: linear-gradient(white, #bde0ff);
 }
 
 .newsletter p, label {
@@ -191,6 +192,10 @@ button {
   font-style: italic;
   color: darkgrey;
   font-size: 10px;
+}
+
+#hr1 {
+  border-style: inherit;
 }
 
 /* Media Queries: Tablet/Desktop 768px ---------------*/
