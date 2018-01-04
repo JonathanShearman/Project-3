@@ -33,6 +33,7 @@ h1 {
   align-items: center;
   justify-content: center;
   border-bottom: solid 5px black;
+  background-color: #b3d9ff;
 }
 
 .banner h2 {
@@ -42,7 +43,7 @@ h1 {
 
 .banner p {
   font-weight: lighter;
-  color: darkgrey;
+  color: #666666;
   text-align: center;
 }
 
@@ -64,6 +65,11 @@ h1 {
   margin: 10px auto;
 }
 
+.container input:focus{
+    height: 25px;
+    background-color: #e6e6e6;
+}
+
 .contact input {
   background-color: lightgrey;
   width: 82%;
@@ -73,6 +79,14 @@ h1 {
   border-style: none;
   font-size: 1em;
   margin-top: 10px;
+  transition-duration: 0.5s;
+}
+
+::-webkit-input-placeholder {
+    text-align: right;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .contact input:focus {
@@ -108,7 +122,7 @@ textarea {
 }
 
 button {
-  background: linear-gradient(to top right, #ffffff -35%, #7a7adb 79%);
+  background: linear-gradient(to top right, #ffffff -35%, #00e6ac 79%);
   border-radius: 3px;
   width: 90%;
   padding-top: 25px;
@@ -160,8 +174,8 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
-  width: 70%;
+  margin: 0 auto;
+  width: 100%;
 }
 
 hr {
