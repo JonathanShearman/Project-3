@@ -134,6 +134,7 @@ textarea {
   border-radius: 3px;
   margin: 0 15px;
   transition-duration: 0.25s;
+  margin-top: 15px;
 }
 
  textarea:focus {
@@ -157,6 +158,10 @@ button {
   font-size: 1.2em;
   color: white;
   text-transform: uppercase;
+}
+
+.biofield label {
+  margin: 10px 0px;
 }
 
 #state {
